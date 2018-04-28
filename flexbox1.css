@@ -1,0 +1,31 @@
+
+.flex{
+	box-sizing: boder-box;
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex-item{
+	background-color: rebeccapurple;
+	height: 100px;
+	border: 2px solid gold;
+	color:white;
+	font-size:26px;
+	
+	flex-grow: 1;
+	
+	
+	/* para definir cuando bajarcon el wrap a la segunda linea hay que definir el minimo con el basis */
+	flex-basis: 350px;
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.flex-item:nth-child(3){
+	
+	flex-grow:6;
+	
+	
+}
